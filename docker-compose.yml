@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  bot:
+    build: .
+    command: python botnew.py
+    environment:
+      - TOKEN=MTIwNjAyNDgyMzg4MTM0Mjk3Ng.GlIuRZ.6sBEO9MduVpcjeS38TntWlmq_UPVA6kHpkbMtk
+    volumes:
+      - .:/app
